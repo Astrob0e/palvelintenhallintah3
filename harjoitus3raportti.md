@@ -69,7 +69,8 @@ Tässä kohtaa ripottelin ylimääräisiä merkkejä ja symboleja sekä kirjoitu
 
 Tässä tehtävässä halusin asentaa koneelle Terminator -nimisen terminaaliemulaattorin. Asensin ohjelman ensin manuaalisesti:
 
-```$ sudo apt-get update
+```
+$ sudo apt-get update
 $ sudo apt-get install terminator
 ```
 ![11]

@@ -50,11 +50,16 @@ Tämän jälkeen harjoitusraporttini ilmestyi sisältöineen GitHub -sivulleni n
 
 ![6]
 
+`git blame <halutun tiedoston nimi>` -komennolla kyetään osoittamaan se taho, joka on vastuussa kustakin tehdystä muutoksesta:
 
+![7]
  
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
+Tässä kohtaa ripottelin ylimääräisiä merkkejä ja symboleja sekä kirjoitusvirheitä kaikkialle harjoitusraporttiini. Niiden manuaalisesti poistaminen olisi ollut kovin työlästä, joten `git reset --hard` -komennolla pystyin palaamaan edelliseen toimivaan versioon, jossa tätä ongelmaa ei esiintynyt:
+
+  
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman.
 
 ## Lähteet:
@@ -78,7 +83,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 [6]: https://i.gyazo.com/042977d84177c8015f786d4d77076237.png "6"
 
-[7]: "7"
+[7]: https://i.gyazo.com/842bd75c512bc629453dd77bf5cf7f33.png "7"
 
 [8]: "8"
 

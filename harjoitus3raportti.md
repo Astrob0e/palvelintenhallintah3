@@ -1,5 +1,7 @@
 # Harjoitus H3
 
+Linkki tehtävänantoon [tästä](http://terokarvinen.com/2020/configuration-management-systems-palvelinten-hallinta-ict4tn022-autumn-2020/#h3-versionhallinta)
+
 Tehtävä suoritettiin 16.11.2020 VirtualBoxin kautta Xubuntu 18.04.5 LTS:llä. Koneessa on jo valmiiksi asennetut salt master sekä slave.
 
 ### a) MarkDown. Tee tämän tehtävän raportti MarkDownina.
@@ -14,7 +16,11 @@ Ajoin seuraavat komennot järjestyksessä:
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman.
 
 ## Lähteet:
+
 http://terokarvinen.com/2020/configuration-management-systems-palvelinten-hallinta-ict4tn022-autumn-2020/#h3-versionhallinta
+
 http://terokarvinen.com/2016/publish-your-project-with-github/
+
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 

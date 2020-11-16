@@ -6,8 +6,16 @@ Tehtävä suoritettiin 16.11.2020 VirtualBoxin kautta Xubuntu 18.04.5 LTS:llä. 
 
 ### a) MarkDown. Tee tämän tehtävän raportti MarkDownina.
 
-Aloitin tehtävän luomalla GitHub -tunnuksen. Seurasin tässä vaiheessa [Tero Karvisen ohjetta.](http://terokarvinen.com/2016/publish-your-project-with-github/)
+Aloitin tehtävän luomalla GitHub -tunnuksen sekä sinne uuden repositoryn. Seurasin tässä vaiheessa [Tero Karvisen ohjetta.](http://terokarvinen.com/2016/publish-your-project-with-github/)
 Ajoin seuraavat komennot järjestyksessä:
+`$ sudo apt-get update`
+`$ sudo apt-get -y install git`
+(asennus)
+`$ git config --global user.email "atro.lindell@myy.haaga-helia.fi"`
+`$ git config --global user.name "Atro Lindell"`
+(kertoo gitille nimen sekä sähköpostiosoitteen)
+`$ git config --global credential.helper "cache --timeout=3600"`
+(muistiasetus salasanalle)
 
 ### d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 

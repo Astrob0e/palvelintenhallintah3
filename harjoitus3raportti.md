@@ -59,6 +59,11 @@ Tämän jälkeen harjoitusraporttini ilmestyi sisältöineen GitHub -sivulleni n
 
 Tässä kohtaa ripottelin ylimääräisiä merkkejä ja symboleja sekä kirjoitusvirheitä kaikkialle harjoitusraporttiini. Niiden manuaalisesti poistaminen olisi ollut kovin työlästä, joten `git reset --hard` -komennolla pystyin palaamaan edelliseen toimivaan versioon, jossa tätä ongelmaa ei esiintynyt:
 
+![8]
+
+![9]
+
+![10]
   
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman.
 
@@ -85,9 +90,16 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 [7]: https://i.gyazo.com/842bd75c512bc629453dd77bf5cf7f33.png "7"
 
-[8]: "8"
+[8]: https://i.gyazo.com/88295aca5c86bde3f1dadd25afd97071.png "8"
 
-[9]: "9"
+[9]: https://i.gyazo.com/e96e3578701d1a4cc907d5dc940edebc.png "9"
 
-[10]: "10"
+[10]: https://i.gyazo.com/0c49c93c7300319d07114cb6f9ac54e2.png "10"
 
+[11]: "11"
+
+[12]: "12"
+
+[13]: "13"
+
+[14]: "14"

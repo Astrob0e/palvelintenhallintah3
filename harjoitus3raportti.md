@@ -67,6 +67,36 @@ Tässä kohtaa ripottelin ylimääräisiä merkkejä ja symboleja sekä kirjoitu
   
 ### f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman.
 
+Tässä tehtävässä halusin asentaa koneelle Terminator -nimisen terminaaliemulaattorin. Asensin ohjelman ensin manuaalisesti:
+
+```$ sudo apt-get update
+$ sudo apt-get install terminator
+```
+![11]
+
+![12]
+
+Seuraavaksi poistin Terminatorin komennolla:
+  `$ sudo apt-get purge terminator`
+
+Todettuani, että asennus onnistuu moitteetta manuaalisesti pystyin hyvillä mielin siirtymään automaatiovaiheeseen. Ensin kokeilin, toimiiko aiemmin luomani minion vielä oikein komennolla `$ sudo salt '*' cmd.run 'whoami'`
+
+Sitten loin polkuun */srv/salt* kansion */terminator*, jonne loin *init.sls* -tiedoston. Tätä tiedostoa muokkasin komennolla `sudoedit`. Määritin asetukseksi sen, että tilaa kutsuessa jokainen minion asentaa ohjelman automaattisesti:
+  
+![13]
+
+![14]
+
+Enää olikin jäljellä vain tilan käyttöönotto sekä toiminnan testaus. Otin tilan käyttöön komennolla
+  `$ sudo salt '*' state.apply terminator`
+
+Ja tämän jälkeen varmistin vielä, että ohjelma löytyy koneelta:
+
+![15]
+
+![16]
+
+Ja siinäpä se:)
 ## Lähteet:
 
 http://terokarvinen.com/2020/configuration-management-systems-palvelinten-hallinta-ict4tn022-autumn-2020/#h3-versionhallinta
@@ -96,10 +126,15 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 [10]: https://i.gyazo.com/0c49c93c7300319d07114cb6f9ac54e2.png "10"
 
-[11]: "11"
+[11]: https://i.gyazo.com/809109a6b3b6f9398cd27e485cbae5cf.png "11"
 
-[12]: "12"
+[12]: https://i.gyazo.com/37070f26722bf10932b7750820c03179.png "12"
 
-[13]: "13"
+[13]: https://i.gyazo.com/3b37f5aa0a1c8160e39a608cace235c1.png "13"
 
-[14]: "14"
+[14]: https://i.gyazo.com/fd90433890500f719cb0417c60fac8f5.png "14"
+
+[15]: https://i.gyazo.com/b630dc088a23359ec9c019d206140f75.png "15"
+
+[16]: https://i.gyazo.com/2fc9dc1249d530240423895d82ecd7c7.png "16"
+

@@ -33,6 +33,9 @@ Koska tässä tehtävänannossa pyydettiin palauttamaan raportti MarkDownina, lo
 
 MarkDownin opettelu sujui melko vaivattomasti [MarkDown -käyttöohjeen](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
  avulla. Tein ensimmäiset muokkaukseni MarkDown -tiedostoon, jonka jälkeen suljin ja tallensin muutokseni. Nämä eivät kuitenkaan vielä näkyneet GitHub -sivullani, vaan ensin muutokset täytyi synkronoida aikaisemmin mainitulla `$ git add . && git commit; git pull && git push` -komennolla:
+
+![3]  ![4]
+
 ### d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
 ### e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
@@ -51,9 +54,9 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 [2]: https://i.gyazo.com/5a600f49d4f61629cbce1c1910b6eb3e.png "2"
 
-[3]:  "3"
+[3]: https://i.gyazo.com/568b7c8a41b980f2f475c353ecb35470.png "3"
 
-[4]:
+[4]: https://i.gyazo.com/82086cc3840e804dc0bc5e39207c8f8f.png "4"
 
 [5]:
 

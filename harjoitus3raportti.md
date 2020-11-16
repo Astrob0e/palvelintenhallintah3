@@ -16,7 +16,9 @@ $ git config --global user.email "atro.lindell@myy.haaga-helia.fi"
 $ git config --global user.name "Atro Lindell"
 (kertoo gitille nimen sekä sähköpostiosoitteen)
 $ git config --global credential.helper "cache --timeout=3600"
-(muistiasetus salasanalle)```
+(muistiasetus salasanalle)
+```
+
 
 ### d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 

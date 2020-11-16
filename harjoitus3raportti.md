@@ -41,7 +41,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 [1]:
 
-[2]:https://gyazo.com/5a600f49d4f61629cbce1c1910b6eb3e
+[2]: https://gyazo.com/5a600f49d4f61629cbce1c1910b6eb3e "2"
 
 [3]:
 
